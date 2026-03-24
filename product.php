@@ -158,11 +158,7 @@ nav a {
     <header>
     <section class="section1"> 
     <nav> 
-        <a href="home.php">Home</a>
-        <a href="about.php">About</a>
-        <a href="product.php">Product</a>
-        <a href="contact.php">Contact</a>
-        <a href="admin.php">Admin</a>
+      
     </nav>
     </section>
 </header>
@@ -177,7 +173,7 @@ $result = $conn->query($sql);
 ?>
 
 <section class="menu-container">
-  <h1 class="menu-title">Puma</h1>
+  <h1 class="menu-title"></h1>
 
   <div class="menu-grid">
     <?php
@@ -214,7 +210,7 @@ $result = $conn->query($sql);
 $conn->close();
 ?>
 
-<script src="assets/dist/js/bootstrap.bundle.min.js"></script>s
+<script src="assets/dist/js/bootstrap.bundle.min.js"></script>
 <!-- Buy Now Modal -->
 <div class="modal fade" id="buyNowModal" tabindex="-1">
   <div class="modal-dialog modal-lg modal-dialog-centered">
